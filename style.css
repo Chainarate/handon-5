@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul li.marked {
+  text-decoration: line-through;
+  color: red;
+}
+
+ul li button {
+  background-color: burlywood;
+  width: 20px;
+  border-radius: 5px;
+}
+
+ul li {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul li .delList {
+  display: none;
+}
+
+header {
+  width: 80%;
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form div {
+  padding: 20px;
+}
+
+form h2 {
+  padding-top: 20px;
+}
+
+.inputTitle {
+  border-radius: 5px;
+  border-color: white;
+}
+
+.buttonAdd {
+  width: 50px;
+  background-color: gray;
+  color: white;
+}
